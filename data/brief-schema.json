@@ -1,0 +1,66 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "refinedPrompt": {
+      "type": "string"
+    },
+    "kind": {
+      "enum": [
+        "按钮",
+        "面板",
+        "图标",
+        "HUD",
+        "背包",
+        "弹窗"
+      ]
+    },
+    "gameGenre": {
+      "type": "string"
+    },
+    "useCase": {
+      "type": "string"
+    },
+    "states": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "elements": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "engine": {
+      "enum": [
+        "Godot 4",
+        "Unity",
+        "Web / Phaser"
+      ]
+    },
+    "size": {
+      "enum": [
+        "512 × 256",
+        "1024 × 1024",
+        "1536 × 1024",
+        "2048 × 2048"
+      ]
+    },
+    "transparent": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "refinedPrompt",
+    "kind",
+    "gameGenre",
+    "useCase",
+    "states",
+    "elements",
+    "engine",
+    "size",
+    "transparent"
+  ]
+}

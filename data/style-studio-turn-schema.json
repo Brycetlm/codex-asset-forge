@@ -1,0 +1,60 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "assistantReply": {
+      "type": "string"
+    },
+    "changeSummary": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "note": {
+      "type": "string"
+    },
+    "category": {
+      "enum": [
+        "奇幻",
+        "科幻",
+        "像素",
+        "休闲",
+        "东方"
+      ]
+    },
+    "colors": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^#[0-9A-Fa-f]{6}$"
+      },
+      "minItems": 4,
+      "maxItems": 4
+    },
+    "prompt": {
+      "type": "string"
+    },
+    "negativePrompt": {
+      "type": "string"
+    },
+    "bestFor": {
+      "type": "string"
+    },
+    "samplePrompt": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "assistantReply",
+    "changeSummary",
+    "name",
+    "note",
+    "category",
+    "colors",
+    "prompt",
+    "negativePrompt",
+    "bestFor",
+    "samplePrompt"
+  ]
+}
