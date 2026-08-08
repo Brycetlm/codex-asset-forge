@@ -72,20 +72,26 @@ assetId       fire_sword_art
 
 <p align="center"><sub>创作台：用一句中文需求补齐组件、状态、尺寸、风格 DNA、参考图与最终生成规格。</sub></p>
 
+<p align="center">
+  <img src="./docs/media/app/manifest-live.png" alt="真实清单任务批量生成页面" width="1000" />
+</p>
+
+<p align="center"><sub>真实清单任务：按项目和批次管理大量素材，集中查看生成进度、待审核状态、单项耗时、预览结果与最终采用路径。</sub></p>
+
+<p align="center">
+  <img src="./docs/media/app/workflow-anime.png" alt="本地 Codex 动漫科技风自动化工作流" width="1000" />
+</p>
+
+<p align="center"><sub>从自然语言需求，到 AI 拆解、批次生成、本地质检，再交接给游戏开发。</sub></p>
+
 <table>
   <tr>
-    <td width="50%"><img src="./docs/media/app/workflow.png" alt="本地 Codex 自动化工作流" /></td>
     <td width="50%"><img src="./docs/media/app/style-studio.png" alt="风格工作室" /></td>
+    <td width="50%"><img src="./docs/media/app/smart-split.png" alt="智能拆图工具" /></td>
   </tr>
   <tr>
-    <td align="center"><sub>每次生成如何进入 Codex CLI、调用 imagegen 并保存到本机</sub></td>
-    <td align="center"><sub>与 AI 对话打磨风格 DNA，再保存文字描述与参考图</sub></td>
-  </tr>
-  <tr>
-    <td colspan="2"><img src="./docs/media/app/smart-split.png" alt="智能拆图工具" /></td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center"><sub>智能拆图：批量导入不规则素材表，预览检测区域并无损导出</sub></td>
+    <td align="center"><sub>风格工作室：与 AI 对话打磨风格 DNA</sub></td>
+    <td align="center"><sub>智能拆图：检测不规则素材表并无损导出</sub></td>
   </tr>
 </table>
 
