@@ -64,7 +64,57 @@ assetId       fire_sword_art
 
 生成和审核完成后，系统再输出标准 JSON、语义素材索引及本地文件路径。后续开发 AI 只需读取交接文件，就能知道每张图是什么、在哪里、规格如何、是否已经采用，不需要重新查看并理解几百张图片。
 
-## 界面与风格
+## 功能界面
+
+<p align="center">
+  <img src="./docs/media/app/creator.png" alt="Codex Asset Forge 创作台" width="1000" />
+</p>
+
+<p align="center"><sub>创作台：用一句中文需求补齐组件、状态、尺寸、风格 DNA、参考图与最终生成规格。</sub></p>
+
+<table>
+  <tr>
+    <td width="50%"><img src="./docs/media/app/workflow.png" alt="本地 Codex 自动化工作流" /></td>
+    <td width="50%"><img src="./docs/media/app/style-studio.png" alt="风格工作室" /></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>每次生成如何进入 Codex CLI、调用 imagegen 并保存到本机</sub></td>
+    <td align="center"><sub>与 AI 对话打磨风格 DNA，再保存文字描述与参考图</sub></td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="./docs/media/app/smart-split.png" alt="智能拆图工具" /></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><sub>智能拆图：批量导入不规则素材表，预览检测区域并无损导出</sub></td>
+  </tr>
+</table>
+
+> 功能截图来自独立的空白演示工作区，不包含真实项目任务、生成记录或本地路径。
+
+## 实际生成效果
+
+下面是一组“玄金风”游戏素材生成结果示例，展示同一风格 DNA 在综合 UI、物品道具、武器装备和武学招式中的延续效果。
+
+<table>
+  <tr>
+    <td width="50%"><img src="./docs/media/showcase/xuanjin-style-board.png" alt="玄金风综合 UI 风格板" /></td>
+    <td width="50%"><img src="./docs/media/showcase/xuanjin-items.png" alt="玄金风物品与修仙道具" /></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>综合 UI 风格板</sub></td>
+    <td align="center"><sub>物品与修仙道具</sub></td>
+  </tr>
+  <tr>
+    <td><img src="./docs/media/showcase/xuanjin-weapons.png" alt="玄金风武器装备" /></td>
+    <td><img src="./docs/media/showcase/xuanjin-skills.png" alt="玄金风武学招式" /></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>武器装备</sub></td>
+    <td align="center"><sub>武学招式</sub></td>
+  </tr>
+</table>
+
+## 内置风格与自定义风格
 
 <p align="center">
   <img src="./public/assets/style-reference-atlas.png" alt="内置游戏 UI 风格参考图" width="900" />
